@@ -12,6 +12,10 @@ public class recPower
             { 
                 return base;
             }
+        else if( exponent < 0)
+        {
+                return 1/power(base, exponent*-1);
+        }
         else
             { 
                 return base*power(base, exponent-1);
