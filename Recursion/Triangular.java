@@ -5,6 +5,7 @@ public class Triangular
     {
         if (n == 1)
         {
+            System.out.println("*");
             return 1;
         }
         else
