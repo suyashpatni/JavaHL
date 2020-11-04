@@ -24,7 +24,5 @@ public class recD2B {
         System.out.print( b10 + " base 10 = " );
         decToBin(b10);
         System.out.println(" base 2.\n");
-        System.out.print("SUYASH")
-        System.out.print("hi")
-}
+    }
 }
