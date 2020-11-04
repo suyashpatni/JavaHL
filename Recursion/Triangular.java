@@ -9,7 +9,13 @@ public class Triangular
         }
         else
         {
-            return tri(n-1) + n;
+            int tri = tri(n-1) + n;
+            for (int i = 0; i<=n; i++)
+            {
+                System.out.print("*");
+            } 
+            System.out.println("");
+            return tri;
         }
     }
     public static void main (String args[])
